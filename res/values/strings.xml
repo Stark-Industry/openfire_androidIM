@@ -1,0 +1,100 @@
+<resources>
+
+    <string name="app_name">ChatChat</string>
+
+    <!-- Login -->
+    <string name="login_emptyname_or_emptypwd">用户名或密码为空，请重新输入</string>
+    <string name="login_empty_serverip">服务器IP地址不能为空，请输入IP地址</string>
+    <!-- 错误的IP -->
+    <string name="login_error_serverip">IP地址输入错误，请输入类似192.168.101.101的IP</string>
+    <string name="login_successful">登录成功</string>
+    <string name="login_fail">登录失败</string>
+    <!-- 用户注册时，如果表单填写不完整的提示语 -->
+    <string name="reg_error_empty_form_message">信息没有填写完整哦（是不是用户名、密码或者服务器IP没有填写？）</string>
+   	<!-- 两次填写的密码不一致 -->
+   	<string name="reg_error_psw_not_same">两次密码填写不一致</string>
+   	<!-- z注册成功提示语 -->
+   	<string name="reg_success">注册成功，五秒后将返回登录界面</string>
+   	<!-- z注册失败提示语 -->
+   	<string name="reg_fail">注册失败，请稍后再试</string>
+    <!-- 聊天时消息不能为空 -->
+    <string name="messagee_eror_null">消息不能为空</string>
+    
+    <!-- 查看消息记录时，不存在消息的时候的提示语 -->
+    <string name="no_message_log">没有消息记录哦~</string>
+    
+    <string name="btn_search_messsage_log">查看历史消息</string>
+    
+    <!-- 与服务器失去连接的时候，提示语 -->
+    <string name="lose_connect_with_server">暂时没有连接到服务器上哦，是不是您的网络不给力？</string>
+    
+    <!-- 退出程序时的提示信息 -->
+    <string name="exit_program_tip">再按一次返回键退出程序</string>
+    
+    <!-- 登陆成功之后的顶端信息欢迎语 -->
+    <string name="welcome_tip">欢迎您：</string>
+    <!-- 这里是菜单相关的string -->
+    <string name="menu_change_password">更改密码</string>
+    <string name="menu_change_status">更改状态</string>
+    <string name="menu_search_and_add_user">添加用户</string>
+    <string name="menu_exit_program">退出</string>
+    
+    <!-- 聊天界面 -->
+    <string name="chat_btn_send_message">发送</string>
+    <string name="chat_text_send_message">请输入聊天内容</string>
+    
+    <!-- 修改密码界面 -->
+    <string name="change_psw_new_psw">新密码</string>
+    <string name="change_psw_new_psw_repet">重复密码</string>
+    <string name="change_psw_title">修改密码</string>
+    <string name="change_psw_error_empty_tip">新密码和重复密码不能为空</string>
+    <string name="change_psw_error_not_the_same_tip">新密码和重复密码不一致</string>
+    <string name="change_psw_fail">密码修改失败</string>
+    <string name="change_psw_success">密码修改成功</string>
+    <string name="btn_sure_change_psw">确认修改</string>
+    <string name="btn_no_change_psw">放弃修改</string>
+    
+    
+    <!-- 更改状态 -->
+    <string name="change_status_title">更改状态</string>
+    <string name="change_status_available">在线</string>
+    <string name="change_status_away">离开</string>
+    <string name="change_status_chat">可以聊天</string>
+    <string name="change_status_dnd">请勿打扰</string>
+    <string name="change_status_xa">暂时离开</string>
+    
+    
+    <!-- 查找用户 -->
+    <string name="search_user_username_tip">请输入用户名</string>
+    <string name="search_user_btn_text">查找</string>
+    <string name="search_user_error_empty_username">还没有输入用户名哦~</string>
+    <string name="search_user_server_error_tip">服务器错误，请稍后再试</string>
+    <string name="search_user_add_user_title">添加好友</string>
+    <string name="search_user_add_user_name">您要添加的好友名称是：</string>
+    <string name="search_user_add_user_content">选择将好友添加到的组</string>
+    <string name="search_user_add_user_btn_add">添加好友</string>
+    <string name="search_user_add_user_btn_cancel">取消</string>
+    <string name="search_user_add_user_error_friendname_is_empty">出现错误啦，用户名为空</string>
+    <string name="search_user_add_user_fail">添加好友失败</string>
+    <string name="search_user_add_user_succes">添加好友成功</string>
+    
+    
+    <!-- 传文件 -->
+    <string name="file_dialog_read_from_dir">选择文件</string>
+    <string name="file_send_file_title">发送文件</string>
+    <string name="file_btn_send_file">传文件</string>
+    <string name="file_sendfile_tip">请点击选择文件按钮选择文件</string>
+    <string name="file_btn_select_file">选择文件</string>
+    <string name="file_btn_send_file_final">发送文件</string>
+    <string name="file_btn_send_file_cancel">取消</string>
+    <string name="file_send_request_other_acept">正在等待对方接受</string>
+    <string name="file_send_success">完成</string>
+    <string name="file_send_in_progress">正在传输，请稍等</string>
+    <string name="file_recive_confirm_title">接收文件</string>
+    <string name="file_recive_confirm_btn_ok">确认接收</string>
+    <string name="file_recive_confirm_btn_cancel">取消接收</string>
+    <string name="file_recive_confirm_message_content_front">确定接收来自：</string><!-- 接收文件消息内容的前部分 -->
+    <string name="file_recive_confirm_message_content_midle">的文件，文件名：</string><!-- 接收文件消息内容的中间部分 -->
+    <string name="file_recive_confirm_message_content_end">文件大小：</string><!-- 接收文件消息内容的后部分 -->
+    
+</resources>

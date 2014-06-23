@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/dialog_change_psw"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+
+    <EditText
+        android:id="@+id/change_psw_newpsw"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPassword"
+        android:hint="@string/change_psw_new_psw" 
+        android:textSize="18sp" >
+    </EditText>
+
+
+
+    <EditText
+        android:id="@+id/change_psw_newpsw_rept"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPassword"
+        android:hint="@string/change_psw_new_psw_repet"
+        android:textSize="18sp" >
+    </EditText>
+
+</TableLayout>
